@@ -170,7 +170,7 @@ JavaScript успешно запущен
 
 Через DevTools (вкладка Sources) поставлена точка останова на строке вычисления `completedTotal`. В панели Scope видно, что `completedText` и `additionalText` — строки. После Step over значение `completedTotal` — строка `"32"`. В цикле `taskNumber` принимает значения 1, 2, 3, значение 4 не обрабатывается.
 
-Иллюстрация: `screenshots/debug-breakpoint.png`
+![Отладка через DevTools](./screenshots/debug-breakpoint.png)
 
 ## Вывод
 
