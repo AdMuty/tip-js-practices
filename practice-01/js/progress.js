@@ -1,8 +1,9 @@
 "use strict";
 
-const totalTasks = 12;
-const completedTasks = 5;
+const totalTasks = 7;
+const completedTasks = 2;
 
+// Проверка типа и целочисленности
 if (
   typeof totalTasks !== "number" ||
   typeof completedTasks !== "number" ||
