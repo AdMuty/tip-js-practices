@@ -13,7 +13,7 @@
 
 - ОС: Windows 11
 - Node.js: 24.21.0
-- npm: 11.19.0 (проверено через `npm.cmd --version`, так как PowerShell блокирует `npm.ps1`)
+- npm: 11.19.0 
 - Git: 2.55.0
 - Браузер: Chrome 152.0.7977.83
 
@@ -30,15 +30,6 @@ node practice-01/js/progress.js
 node practice-01/js/plan.js
 node practice-01/js/debug.js
 ```
-
-### Браузер
-
-1. Открыть `practice-01/index.html`.
-2. Заменить путь в `<script>` на нужный файл (например, `./js/types.js`).
-3. Сохранить файл и перезагрузить страницу (F5).
-4. Открыть DevTools (F12) → вкладка Console.
-
-Перед сдачей в `index.html` подключён `./js/hello.js`.
 
 ## Задание 1. Один файл — две среды выполнения
 
